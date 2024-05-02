@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(43, 38, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 90%;
+    background-color: rgb(131, 150, 158);
+
+    overflow: auto;
+
+    
+
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(66, 116, 156);
+}
+header h2{
+ text-align: center;
+ padding-top: 30px;
+}
+
+main img{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    box-shadow: 3px 3px 10px 3px;
+}
+main .profile{
+    display: flex;
+    background-color: rgb(211, 195, 195);
+    height: 150px;
+    
+}
+.profile .data{
+
+    background-color: rgb(124, 91, 123,.3);
+    width: 100%;
+    padding: 20px;
+    border-radius: 0px 0px 50px 0px;
+    
+}
+.data h2{
+    text-align: center;
+  padding: 10px;
+}
+.data h2:hover{
+    cursor: pointer;
+}
+.data p{
+    text-align: center;
+    position: relative;
+    top: -15px;
+    font-weight: 550;
+}
+.data div{
+    float: right;
+font-weight: bold;
+    position: relative;
+    bottom: 5px;
+}
+.contant{
+    width: 100%;
+    cursor: pointer;
+    
+
+}
+.top #stable{
+    position: sticky;
+    top: 0;
+    background: rgb(59, 37, 37);
+}
+
+.top ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid;
+
+   
+}
+.top a{
+    color: white;
+    text-decoration: none;
+  font-size: 12px;
+  padding: 5px;
+  letter-spacing: 1px;
+  border-left: 1px solid rgb(39, 37, 37);
+
+}
+.contant a:hover{
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+}
+
+.details{
+    padding: 10px;
+  width: 100%;
+}
+.details .home{
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.details .study p{
+    padding-bottom: 20px;
+}
+.details .study span{
+   margin-left: 10%;
+   
+}
+
+.details table,th,td{
+    padding: 4px;
+   
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.details table{
+    text-align: center;
+    width: 96%;
+}
+.details #education{
+  padding: 10px;
+}
+#education p{
+    text-align: center;
+    line-height: 23px;
+    margin-bottom: 5px;
+}
+#education h3{
+    padding: 10px;
+}
+.skills{
+    padding: 20px 5px 10px 30px;
+
+}
+.skills h3{
+    margin-bottom: 10px;
+}
+.skills ul{
+    list-style:none;
+    display: block;
+}
+.skills li{
+    margin-bottom: 5px;
+    padding: 6px 10px 0px 30px;
+}
+
+
+.contact,.about{
+    padding: 10px 10px 0px 30px;
+}
+.contact p,.about p{
+    margin-bottom: 10px;
+    padding: 6px 10px 0px 30px;
+}
+ .span{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    padding: 10px;
+
+ }
+
+.finish{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+     text-align: center;
+}
+.finish h3,button{
+    padding: 10px;
+    background-color: rgb(79, 64, 212);
+    border-radius: 10px;
+    
+}
+
+.finish a{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
+
+@media screen and (max-width:650px){
+
+    .data div{
+             display: none;
+    }
+    .data h2{
+      font-size: 18px;
+    }
+    body{
+        .container{
+            padding: 10px;
+        }
+    }
+    
+}
+
+    
